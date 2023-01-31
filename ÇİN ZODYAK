@@ -1,0 +1,48 @@
+
+
+Scanner klv=new Scanner(System.in);
+        System.out.println("lutfen dogum yılınızı giriniz");
+            int yil=klv.nextInt();
+            
+        double zodyak=yil%12;
+        
+        if (zodyak==0) {
+            System.out.println("MAYMUN");
+        }
+        else if (zodyak==1) {
+            System.out.println("HOROZ");
+        }
+          else if (zodyak==2) {
+            System.out.println("KOPEK");
+        }
+
+         else if (zodyak==3) {
+            System.out.println("DOMUZ");
+        }
+
+        else if (zodyak==4) {
+            System.out.println("FARE");
+        }
+        else if (zodyak==5) {
+            System.out.println("OKUZ");
+        }
+
+        else if (zodyak==6) {
+            System.out.println("KAPLAN");
+        }
+        else if (zodyak==7) {
+            System.out.println("TAVSAN");
+        }
+        else if (zodyak==8) {
+            System.out.println("EJDERHA");
+        }
+        else if (zodyak==9) {
+            System.out.println("YİLAN");
+        }
+        else if (zodyak==10) {
+            System.out.println("AT");
+        }
+        else if (zodyak==11) {
+            System.out.println("KOYUN");
+        }
+        
